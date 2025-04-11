@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú de Cafetería</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1f1a17;
+      color: white;
+    }
+
+    .header {
+      background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      position: relative;
+    }
+
+    .logo {
+      background: white;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .logo img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .menu-title {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 32px;
+      letter-spacing: 3px;
+    }
+
+    .menu-section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: 40px auto;
+    }
+
+    .menu-column {
+      flex: 1 1 250px;
+      margin: 20px;
+    }
+
+    .menu-column h3 {
+      background: white;
+      color: black;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      border-bottom: 1px dashed #444;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      padding: 30px 10px;
+      background: #0e0c0b;
+    }
+
+    .footer p {
+      margin: 5px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      ☕
+    </div>
+  </div>
+
+  <h1 class="menu-title">MENU</h1>
+
+  <div class="menu-section">
+    <div class="menu-column">
+      <h3>Cafe</h3>
+      <div class="menu-item"><span>Producto 1</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 2</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 3</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 4</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 5</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 6</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 7</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 8</span><span>$</span></div>
+    </div>
+
+    <div class="menu-column">
+      <h3>No Cafe</h3>
+      <div class="menu-item"><span>Producto 1</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 2</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 3</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 4</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 5</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 6</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 7</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 8</span><span>$</span></div>
+    </div>
+
+    <div class="menu-column">
+      <h3>Comida</h3>
+      <div class="menu-item"><span>Producto 1</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 2</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 3</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 4</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 5</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 6</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 7</span><span>$</span></div>
+      <div class="menu-item"><span>Producto 8</span><span>$</span></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>direccion</p>
+    <p>contacto</p>
+  </div>
+
+</body>
+</html>
